@@ -1,0 +1,30 @@
+Top 5 highest indegree
+Row(id='2481', inDegree=2540)
+Row(id='394', inDegree=2327)
+Row(id='4675', inDegree=2240)
+Row(id='377', inDegree=1741)
+Row(id='225', inDegree=1717)
+Top 5 highest outdegree
+Row(id='2481', outDegree=2508)
+Row(id='4675', outDegree=2210)
+Row(id='394', outDegree=2199)
+Row(id='377', outDegree=1733)
+Row(id='225', outDegree=1697)
+Top 5 highest PageRank values
+Row(id='2481', pagerank=178.82752266790007)
+Row(id='394', pagerank=162.66072354013477)
+Row(id='34', pagerank=144.86256785958005)
+Row(id='377', pagerank=140.76081055443618)
+Row(id='4675', pagerank=130.1463661167022)
+Top 5 highest Connected Components
+Row(component=0, count=33500)
+Row(component=94489280718, count=7)
+Row(component=197568495978, count=6)
+Row(component=171798691926, count=5)
+Row(component=300647710988, count=5)
+Top 5 highest Triangle count
+Row(id='46', count=14888)
+Row(id='192', count=11742)
+Row(id='1712', count=10942)
+Row(id='394', count=10820)
+Row(id='337', count=10534)
