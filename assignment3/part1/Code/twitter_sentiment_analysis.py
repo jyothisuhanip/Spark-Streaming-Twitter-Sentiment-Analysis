@@ -10,7 +10,7 @@ from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 from pyspark.ml.feature import HashingTF, Tokenizer, StopWordsRemover, StringIndexer
 from pyspark.ml.tuning import CrossValidator, ParamGridBuilder
 
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAP1lfAEAAAAAgXPHZ61c7%2BPJV2rEcxqH1cQQsaE%3De5xOmbDtUCASzJKc56mGnl8e4a4NizOMB4JRCRlJSYi2EOO8zK"
+BEARER_TOKEN = ""
 
 if __name__ == "__main__":
 
