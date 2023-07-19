@@ -7,7 +7,7 @@ import configparser
 
 config = configparser.ConfigParser()
 config.read('config.ini')
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAP1lfAEAAAAAgXPHZ61c7%2BPJV2rEcxqH1cQQsaE%3De5xOmbDtUCASzJKc56mGnl8e4a4NizOMB4JRCRlJSYi2EOO8zK"
+BEARER_TOKEN = ""
 
 producer = KafkaProducer(bootstrap_servers='localhost:9092')
 
