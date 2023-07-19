@@ -61,7 +61,7 @@ output {
     spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.1 twitter_sentiment_analysis.py  localhost:9092 subscribe <topic_name> <path_to_tweets_csv_file>
 
     Eg: topic_name : emo
-        path_to_tweets_csv_file : "/Users/jwalasowmikachaluvadi/Downloads/Tweets.csv"
+        path_to_tweets_csv_file : "/Users/jp/Downloads/Tweets.csv"
 
 7. Goto the Kibana server by entering http://localhost:5601/ 
     Then goto Management (settings icon on bottom left) Click on Data View under the Kibana section then click create a new index. Here you may be able to see the index name olympics_sentiment_analysis below. Enter the same term in the text input and click next. Then include timestamp and finish. The index is created.
